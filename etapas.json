@@ -1,0 +1,74 @@
+ 
+[
+ 
+    {
+        "titulo": "Governador",
+        "numeros": 2,
+        "candidatos": [
+            {
+                "numero":"30",
+                "nome": "Major Vitor Hugo",
+                "partido": "UNIÃO",
+                "fotos":[
+                    {"url":"vitorhugo.jpg", "legenda": "Governador"}
+                ]
+            },
+            {
+                "numero":"10",
+                "nome": "Ronaldo Caiado",
+                "partido": "PT",
+                "fotos":[
+                    {"url":"ronaldocaiado.jpg", "legenda": "Governador"}
+                ]
+            }
+            
+        ]
+    },
+
+    {
+        "titulo": "Presidente",
+        "numeros": 2,
+        "candidatos": [
+            {
+                "numero":"38",
+                "nome": "Jair Messias Bolsonaro",
+                "partido": "PL",
+                "vice":"Gilson Machado",
+                "fotos":[
+                    {"url":"bolsonaro.jpg", "legenda": "Presidente"},
+                    {"url":"vicedobolsonaro.jpg", "legenda": "Vice-Presidente", "small": true}
+                ]
+            },
+            {
+                "numero":"13",
+                "nome": "Luiz Inacio Lula da Silva",
+                "partido": "PT",
+                "vice": "Geraldo Alckmin",
+                "fotos":[
+                    {"url":"lula.jpg", "legenda": "Presidente"},
+                    {"url":"vicedolula.jpg", "legenda": "Vice-Presidente", "small": true}
+                ]
+            },
+            {
+                "numero":"51",
+                "nome": "Sergio Moro",
+                "partido": "UNIÃO",
+                "vice": "Luiz Henrique Mandetta",
+                "fotos":[
+                    {"url":"moro.jpg", "legenda": "Presidente"},
+                    {"url":"vicedomoro.jpg", "legenda": "Vice-Presidente", "small": true}
+                ]
+            },
+            {
+                "numero":"12",
+                "nome": "Ciro Gomes",
+                "partido": "PDT",
+                "vice": "Katia Abreu",
+                "fotos":[
+                    {"url":"ciro.jpg", "legenda": "Presidente"},
+                    {"url":"vicedomoro.jpg", "legenda": "Vice-Presidente", "small": true}
+                ]
+            }
+        ]
+    }
+]
