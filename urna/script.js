@@ -51,7 +51,12 @@ function atualizaInterface(){
         aviso.style.display = 'block';
         descricao.innerHTML = `Nome: ${candidato.nome}</br>Partido: ${candidato.partido}`;
 
-        lateral.innerHTML = fotosHtml;
+        let imagens = '';
+        for(let i in candidato.fotos){
+            imagens += `<div class="d-1-image"><img src="imagens/${candidato.fotos[i].url}" alt="Jair Messias Bolsonaro">${candidatos.fotos[i].legenda}</div>`;
+        }
+
+        lateral.imagens = imagens;
     }
 
 

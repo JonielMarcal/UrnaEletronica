@@ -27,7 +27,7 @@ body{
 
 }
 .teclado{
-    margin-left: 40px;
+    margin-left: 80px;
     background-color: #403a3a;
     
 }
@@ -63,7 +63,7 @@ body{
     font-size: 15px
 }
 .botao--confirma{
-    background-color: rgb(191, 48, 9);
+    background-color: rgb(9, 216, 22);
     color: #000;
     font-size: 17px;
     width: 90px;
